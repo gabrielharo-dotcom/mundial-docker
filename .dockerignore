@@ -1,0 +1,9 @@
+data
+evidence
+__pycache__
+tests
+*.zip
+.git
+docs
+*.mp4
+*.docx

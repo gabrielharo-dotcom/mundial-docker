@@ -1,0 +1,745 @@
+{
+  "engine": "Docker Engine en Ubuntu 24.04 WSL 2",
+  "three_replicas": {
+    "471d93eed42c": 10,
+    "4941e27ea3d2": 10,
+    "d8b80e10b57b": 10
+  },
+  "samples_three": [
+    {
+      "response": {
+        "status": "ok",
+        "instance": "471d93eed42c"
+      },
+      "status": 200,
+      "server": "nginx/1.28.3",
+      "instance": "471d93eed42c"
+    },
+    {
+      "response": {
+        "status": "ok",
+        "instance": "4941e27ea3d2"
+      },
+      "status": 200,
+      "server": "nginx/1.28.3",
+      "instance": "4941e27ea3d2"
+    },
+    {
+      "response": {
+        "status": "ok",
+        "instance": "d8b80e10b57b"
+      },
+      "status": 200,
+      "server": "nginx/1.28.3",
+      "instance": "d8b80e10b57b"
+    },
+    {
+      "response": {
+        "status": "ok",
+        "instance": "471d93eed42c"
+      },
+      "status": 200,
+      "server": "nginx/1.28.3",
+      "instance": "471d93eed42c"
+    },
+    {
+      "response": {
+        "status": "ok",
+        "instance": "4941e27ea3d2"
+      },
+      "status": 200,
+      "server": "nginx/1.28.3",
+      "instance": "4941e27ea3d2"
+    },
+    {
+      "response": {
+        "status": "ok",
+        "instance": "d8b80e10b57b"
+      },
+      "status": 200,
+      "server": "nginx/1.28.3",
+      "instance": "d8b80e10b57b"
+    },
+    {
+      "response": {
+        "status": "ok",
+        "instance": "471d93eed42c"
+      },
+      "status": 200,
+      "server": "nginx/1.28.3",
+      "instance": "471d93eed42c"
+    },
+    {
+      "response": {
+        "status": "ok",
+        "instance": "4941e27ea3d2"
+      },
+      "status": 200,
+      "server": "nginx/1.28.3",
+      "instance": "4941e27ea3d2"
+    },
+    {
+      "response": {
+        "status": "ok",
+        "instance": "d8b80e10b57b"
+      },
+      "status": 200,
+      "server": "nginx/1.28.3",
+      "instance": "d8b80e10b57b"
+    },
+    {
+      "response": {
+        "status": "ok",
+        "instance": "471d93eed42c"
+      },
+      "status": 200,
+      "server": "nginx/1.28.3",
+      "instance": "471d93eed42c"
+    },
+    {
+      "response": {
+        "status": "ok",
+        "instance": "4941e27ea3d2"
+      },
+      "status": 200,
+      "server": "nginx/1.28.3",
+      "instance": "4941e27ea3d2"
+    },
+    {
+      "response": {
+        "status": "ok",
+        "instance": "d8b80e10b57b"
+      },
+      "status": 200,
+      "server": "nginx/1.28.3",
+      "instance": "d8b80e10b57b"
+    },
+    {
+      "response": {
+        "status": "ok",
+        "instance": "471d93eed42c"
+      },
+      "status": 200,
+      "server": "nginx/1.28.3",
+      "instance": "471d93eed42c"
+    },
+    {
+      "response": {
+        "status": "ok",
+        "instance": "4941e27ea3d2"
+      },
+      "status": 200,
+      "server": "nginx/1.28.3",
+      "instance": "4941e27ea3d2"
+    },
+    {
+      "response": {
+        "status": "ok",
+        "instance": "d8b80e10b57b"
+      },
+      "status": 200,
+      "server": "nginx/1.28.3",
+      "instance": "d8b80e10b57b"
+    },
+    {
+      "response": {
+        "status": "ok",
+        "instance": "471d93eed42c"
+      },
+      "status": 200,
+      "server": "nginx/1.28.3",
+      "instance": "471d93eed42c"
+    },
+    {
+      "response": {
+        "status": "ok",
+        "instance": "4941e27ea3d2"
+      },
+      "status": 200,
+      "server": "nginx/1.28.3",
+      "instance": "4941e27ea3d2"
+    },
+    {
+      "response": {
+        "status": "ok",
+        "instance": "d8b80e10b57b"
+      },
+      "status": 200,
+      "server": "nginx/1.28.3",
+      "instance": "d8b80e10b57b"
+    },
+    {
+      "response": {
+        "status": "ok",
+        "instance": "471d93eed42c"
+      },
+      "status": 200,
+      "server": "nginx/1.28.3",
+      "instance": "471d93eed42c"
+    },
+    {
+      "response": {
+        "status": "ok",
+        "instance": "4941e27ea3d2"
+      },
+      "status": 200,
+      "server": "nginx/1.28.3",
+      "instance": "4941e27ea3d2"
+    },
+    {
+      "response": {
+        "status": "ok",
+        "instance": "d8b80e10b57b"
+      },
+      "status": 200,
+      "server": "nginx/1.28.3",
+      "instance": "d8b80e10b57b"
+    },
+    {
+      "response": {
+        "status": "ok",
+        "instance": "471d93eed42c"
+      },
+      "status": 200,
+      "server": "nginx/1.28.3",
+      "instance": "471d93eed42c"
+    },
+    {
+      "response": {
+        "status": "ok",
+        "instance": "4941e27ea3d2"
+      },
+      "status": 200,
+      "server": "nginx/1.28.3",
+      "instance": "4941e27ea3d2"
+    },
+    {
+      "response": {
+        "status": "ok",
+        "instance": "d8b80e10b57b"
+      },
+      "status": 200,
+      "server": "nginx/1.28.3",
+      "instance": "d8b80e10b57b"
+    },
+    {
+      "response": {
+        "status": "ok",
+        "instance": "471d93eed42c"
+      },
+      "status": 200,
+      "server": "nginx/1.28.3",
+      "instance": "471d93eed42c"
+    },
+    {
+      "response": {
+        "status": "ok",
+        "instance": "4941e27ea3d2"
+      },
+      "status": 200,
+      "server": "nginx/1.28.3",
+      "instance": "4941e27ea3d2"
+    },
+    {
+      "response": {
+        "status": "ok",
+        "instance": "d8b80e10b57b"
+      },
+      "status": 200,
+      "server": "nginx/1.28.3",
+      "instance": "d8b80e10b57b"
+    },
+    {
+      "response": {
+        "status": "ok",
+        "instance": "471d93eed42c"
+      },
+      "status": 200,
+      "server": "nginx/1.28.3",
+      "instance": "471d93eed42c"
+    },
+    {
+      "response": {
+        "status": "ok",
+        "instance": "4941e27ea3d2"
+      },
+      "status": 200,
+      "server": "nginx/1.28.3",
+      "instance": "4941e27ea3d2"
+    },
+    {
+      "response": {
+        "status": "ok",
+        "instance": "d8b80e10b57b"
+      },
+      "status": 200,
+      "server": "nginx/1.28.3",
+      "instance": "d8b80e10b57b"
+    }
+  ],
+  "persisted_prediction": [
+    4,
+    2
+  ],
+  "session_after_restart": true,
+  "five_replicas": {
+    "471d93eed42c": 10,
+    "4941e27ea3d2": 10,
+    "b54e04e1dca2": 10,
+    "dcc3c1d37200": 10,
+    "d8b80e10b57b": 10
+  },
+  "samples_five": [
+    {
+      "response": {
+        "status": "ok",
+        "instance": "471d93eed42c"
+      },
+      "status": 200,
+      "server": "nginx/1.28.3",
+      "instance": "471d93eed42c"
+    },
+    {
+      "response": {
+        "status": "ok",
+        "instance": "4941e27ea3d2"
+      },
+      "status": 200,
+      "server": "nginx/1.28.3",
+      "instance": "4941e27ea3d2"
+    },
+    {
+      "response": {
+        "status": "ok",
+        "instance": "b54e04e1dca2"
+      },
+      "status": 200,
+      "server": "nginx/1.28.3",
+      "instance": "b54e04e1dca2"
+    },
+    {
+      "response": {
+        "status": "ok",
+        "instance": "dcc3c1d37200"
+      },
+      "status": 200,
+      "server": "nginx/1.28.3",
+      "instance": "dcc3c1d37200"
+    },
+    {
+      "response": {
+        "status": "ok",
+        "instance": "d8b80e10b57b"
+      },
+      "status": 200,
+      "server": "nginx/1.28.3",
+      "instance": "d8b80e10b57b"
+    },
+    {
+      "response": {
+        "status": "ok",
+        "instance": "471d93eed42c"
+      },
+      "status": 200,
+      "server": "nginx/1.28.3",
+      "instance": "471d93eed42c"
+    },
+    {
+      "response": {
+        "status": "ok",
+        "instance": "4941e27ea3d2"
+      },
+      "status": 200,
+      "server": "nginx/1.28.3",
+      "instance": "4941e27ea3d2"
+    },
+    {
+      "response": {
+        "status": "ok",
+        "instance": "b54e04e1dca2"
+      },
+      "status": 200,
+      "server": "nginx/1.28.3",
+      "instance": "b54e04e1dca2"
+    },
+    {
+      "response": {
+        "status": "ok",
+        "instance": "dcc3c1d37200"
+      },
+      "status": 200,
+      "server": "nginx/1.28.3",
+      "instance": "dcc3c1d37200"
+    },
+    {
+      "response": {
+        "status": "ok",
+        "instance": "d8b80e10b57b"
+      },
+      "status": 200,
+      "server": "nginx/1.28.3",
+      "instance": "d8b80e10b57b"
+    },
+    {
+      "response": {
+        "status": "ok",
+        "instance": "471d93eed42c"
+      },
+      "status": 200,
+      "server": "nginx/1.28.3",
+      "instance": "471d93eed42c"
+    },
+    {
+      "response": {
+        "status": "ok",
+        "instance": "4941e27ea3d2"
+      },
+      "status": 200,
+      "server": "nginx/1.28.3",
+      "instance": "4941e27ea3d2"
+    },
+    {
+      "response": {
+        "status": "ok",
+        "instance": "b54e04e1dca2"
+      },
+      "status": 200,
+      "server": "nginx/1.28.3",
+      "instance": "b54e04e1dca2"
+    },
+    {
+      "response": {
+        "status": "ok",
+        "instance": "dcc3c1d37200"
+      },
+      "status": 200,
+      "server": "nginx/1.28.3",
+      "instance": "dcc3c1d37200"
+    },
+    {
+      "response": {
+        "status": "ok",
+        "instance": "d8b80e10b57b"
+      },
+      "status": 200,
+      "server": "nginx/1.28.3",
+      "instance": "d8b80e10b57b"
+    },
+    {
+      "response": {
+        "status": "ok",
+        "instance": "471d93eed42c"
+      },
+      "status": 200,
+      "server": "nginx/1.28.3",
+      "instance": "471d93eed42c"
+    },
+    {
+      "response": {
+        "status": "ok",
+        "instance": "4941e27ea3d2"
+      },
+      "status": 200,
+      "server": "nginx/1.28.3",
+      "instance": "4941e27ea3d2"
+    },
+    {
+      "response": {
+        "status": "ok",
+        "instance": "b54e04e1dca2"
+      },
+      "status": 200,
+      "server": "nginx/1.28.3",
+      "instance": "b54e04e1dca2"
+    },
+    {
+      "response": {
+        "status": "ok",
+        "instance": "dcc3c1d37200"
+      },
+      "status": 200,
+      "server": "nginx/1.28.3",
+      "instance": "dcc3c1d37200"
+    },
+    {
+      "response": {
+        "status": "ok",
+        "instance": "d8b80e10b57b"
+      },
+      "status": 200,
+      "server": "nginx/1.28.3",
+      "instance": "d8b80e10b57b"
+    },
+    {
+      "response": {
+        "status": "ok",
+        "instance": "471d93eed42c"
+      },
+      "status": 200,
+      "server": "nginx/1.28.3",
+      "instance": "471d93eed42c"
+    },
+    {
+      "response": {
+        "status": "ok",
+        "instance": "4941e27ea3d2"
+      },
+      "status": 200,
+      "server": "nginx/1.28.3",
+      "instance": "4941e27ea3d2"
+    },
+    {
+      "response": {
+        "status": "ok",
+        "instance": "b54e04e1dca2"
+      },
+      "status": 200,
+      "server": "nginx/1.28.3",
+      "instance": "b54e04e1dca2"
+    },
+    {
+      "response": {
+        "status": "ok",
+        "instance": "dcc3c1d37200"
+      },
+      "status": 200,
+      "server": "nginx/1.28.3",
+      "instance": "dcc3c1d37200"
+    },
+    {
+      "response": {
+        "status": "ok",
+        "instance": "d8b80e10b57b"
+      },
+      "status": 200,
+      "server": "nginx/1.28.3",
+      "instance": "d8b80e10b57b"
+    },
+    {
+      "response": {
+        "status": "ok",
+        "instance": "471d93eed42c"
+      },
+      "status": 200,
+      "server": "nginx/1.28.3",
+      "instance": "471d93eed42c"
+    },
+    {
+      "response": {
+        "status": "ok",
+        "instance": "4941e27ea3d2"
+      },
+      "status": 200,
+      "server": "nginx/1.28.3",
+      "instance": "4941e27ea3d2"
+    },
+    {
+      "response": {
+        "status": "ok",
+        "instance": "b54e04e1dca2"
+      },
+      "status": 200,
+      "server": "nginx/1.28.3",
+      "instance": "b54e04e1dca2"
+    },
+    {
+      "response": {
+        "status": "ok",
+        "instance": "dcc3c1d37200"
+      },
+      "status": 200,
+      "server": "nginx/1.28.3",
+      "instance": "dcc3c1d37200"
+    },
+    {
+      "response": {
+        "status": "ok",
+        "instance": "d8b80e10b57b"
+      },
+      "status": 200,
+      "server": "nginx/1.28.3",
+      "instance": "d8b80e10b57b"
+    },
+    {
+      "response": {
+        "status": "ok",
+        "instance": "471d93eed42c"
+      },
+      "status": 200,
+      "server": "nginx/1.28.3",
+      "instance": "471d93eed42c"
+    },
+    {
+      "response": {
+        "status": "ok",
+        "instance": "4941e27ea3d2"
+      },
+      "status": 200,
+      "server": "nginx/1.28.3",
+      "instance": "4941e27ea3d2"
+    },
+    {
+      "response": {
+        "status": "ok",
+        "instance": "b54e04e1dca2"
+      },
+      "status": 200,
+      "server": "nginx/1.28.3",
+      "instance": "b54e04e1dca2"
+    },
+    {
+      "response": {
+        "status": "ok",
+        "instance": "dcc3c1d37200"
+      },
+      "status": 200,
+      "server": "nginx/1.28.3",
+      "instance": "dcc3c1d37200"
+    },
+    {
+      "response": {
+        "status": "ok",
+        "instance": "d8b80e10b57b"
+      },
+      "status": 200,
+      "server": "nginx/1.28.3",
+      "instance": "d8b80e10b57b"
+    },
+    {
+      "response": {
+        "status": "ok",
+        "instance": "471d93eed42c"
+      },
+      "status": 200,
+      "server": "nginx/1.28.3",
+      "instance": "471d93eed42c"
+    },
+    {
+      "response": {
+        "status": "ok",
+        "instance": "4941e27ea3d2"
+      },
+      "status": 200,
+      "server": "nginx/1.28.3",
+      "instance": "4941e27ea3d2"
+    },
+    {
+      "response": {
+        "status": "ok",
+        "instance": "b54e04e1dca2"
+      },
+      "status": 200,
+      "server": "nginx/1.28.3",
+      "instance": "b54e04e1dca2"
+    },
+    {
+      "response": {
+        "status": "ok",
+        "instance": "dcc3c1d37200"
+      },
+      "status": 200,
+      "server": "nginx/1.28.3",
+      "instance": "dcc3c1d37200"
+    },
+    {
+      "response": {
+        "status": "ok",
+        "instance": "d8b80e10b57b"
+      },
+      "status": 200,
+      "server": "nginx/1.28.3",
+      "instance": "d8b80e10b57b"
+    },
+    {
+      "response": {
+        "status": "ok",
+        "instance": "471d93eed42c"
+      },
+      "status": 200,
+      "server": "nginx/1.28.3",
+      "instance": "471d93eed42c"
+    },
+    {
+      "response": {
+        "status": "ok",
+        "instance": "4941e27ea3d2"
+      },
+      "status": 200,
+      "server": "nginx/1.28.3",
+      "instance": "4941e27ea3d2"
+    },
+    {
+      "response": {
+        "status": "ok",
+        "instance": "b54e04e1dca2"
+      },
+      "status": 200,
+      "server": "nginx/1.28.3",
+      "instance": "b54e04e1dca2"
+    },
+    {
+      "response": {
+        "status": "ok",
+        "instance": "dcc3c1d37200"
+      },
+      "status": 200,
+      "server": "nginx/1.28.3",
+      "instance": "dcc3c1d37200"
+    },
+    {
+      "response": {
+        "status": "ok",
+        "instance": "d8b80e10b57b"
+      },
+      "status": 200,
+      "server": "nginx/1.28.3",
+      "instance": "d8b80e10b57b"
+    },
+    {
+      "response": {
+        "status": "ok",
+        "instance": "471d93eed42c"
+      },
+      "status": 200,
+      "server": "nginx/1.28.3",
+      "instance": "471d93eed42c"
+    },
+    {
+      "response": {
+        "status": "ok",
+        "instance": "4941e27ea3d2"
+      },
+      "status": 200,
+      "server": "nginx/1.28.3",
+      "instance": "4941e27ea3d2"
+    },
+    {
+      "response": {
+        "status": "ok",
+        "instance": "b54e04e1dca2"
+      },
+      "status": 200,
+      "server": "nginx/1.28.3",
+      "instance": "b54e04e1dca2"
+    },
+    {
+      "response": {
+        "status": "ok",
+        "instance": "dcc3c1d37200"
+      },
+      "status": 200,
+      "server": "nginx/1.28.3",
+      "instance": "dcc3c1d37200"
+    },
+    {
+      "response": {
+        "status": "ok",
+        "instance": "d8b80e10b57b"
+      },
+      "status": 200,
+      "server": "nginx/1.28.3",
+      "instance": "d8b80e10b57b"
+    }
+  ],
+  "status": "PASS"
+}

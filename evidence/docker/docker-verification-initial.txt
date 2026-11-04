@@ -1,0 +1,29 @@
+﻿**********************
+Inicio de la transcripción de Windows PowerShell
+Hora de inicio: 20261104100641
+Nombre de usuario: DESKTOP-FHFTNPF\HP
+Usuario RunAs: DESKTOP-FHFTNPF\HP
+Nombre de la configuración: 
+Máquina: DESKTOP-FHFTNPF (Microsoft Windows NT 10.0.26300.0)
+Aplicación host: C:\WINDOWS\System32\WindowsPowerShell\v1.0\powershell.exe -ExecutionPolicy Bypass -File outputs/mundial-lab/verify_docker.ps1
+Id. de proceso: 13500
+PSVersion: 5.1.26100.9711
+PSEdition: Desktop
+PSCompatibleVersions: 1.0, 2.0, 3.0, 4.0, 5.0, 5.1.26100.9711
+BuildVersion: 10.0.26100.9711
+CLRVersion: 4.0.30319.42000
+WSManStackVersion: 3.0
+PSRemotingProtocolVersion: 2.3
+SerializationVersion: 1.1.0.1
+**********************
+La transcripción ha comenzado. El archivo de salida es evidence/docker-verification.txt
+
+
+
+
+
+
+**********************
+Fin de la transcripción de Windows PowerShell
+Hora de finalización: 20261104100716
+**********************

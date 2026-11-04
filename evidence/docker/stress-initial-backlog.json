@@ -1,0 +1,136 @@
+[
+  {
+    "base": "http://127.0.0.1:8080",
+    "mode": "read",
+    "concurrency": 1,
+    "requests": 100,
+    "seconds": 1.213,
+    "rps": 82.45,
+    "p50_ms": 6.28,
+    "p95_ms": 26.71,
+    "max_ms": 27.3,
+    "errors": 0,
+    "instances": {
+      "fb59890fbe14": 34,
+      "5c69246d9bf8": 33,
+      "10a585c8d7d8": 33
+    }
+  },
+  {
+    "base": "http://127.0.0.1:8080",
+    "mode": "read",
+    "concurrency": 10,
+    "requests": 300,
+    "seconds": 0.466,
+    "rps": 643.94,
+    "p50_ms": 14.35,
+    "p95_ms": 24.73,
+    "max_ms": 35.23,
+    "errors": 0,
+    "instances": {
+      "10a585c8d7d8": 100,
+      "5c69246d9bf8": 100,
+      "fb59890fbe14": 100
+    }
+  },
+  {
+    "base": "http://127.0.0.1:8080",
+    "mode": "read",
+    "concurrency": 50,
+    "requests": 600,
+    "seconds": 2.583,
+    "rps": 232.33,
+    "p50_ms": 23.5,
+    "p95_ms": 651.17,
+    "max_ms": 2025.81,
+    "errors": 0,
+    "instances": {
+      "5c69246d9bf8": 192,
+      "10a585c8d7d8": 204,
+      "fb59890fbe14": 204
+    }
+  },
+  {
+    "base": "http://127.0.0.1:8080",
+    "mode": "read",
+    "concurrency": 100,
+    "requests": 1000,
+    "seconds": 4.765,
+    "rps": 209.87,
+    "p50_ms": 394.7,
+    "p95_ms": 1856.86,
+    "max_ms": 2745.33,
+    "errors": 489,
+    "instances": {
+      "10a585c8d7d8": 171,
+      "fb59890fbe14": 340,
+      "HTTPError": 489
+    }
+  },
+  {
+    "base": "http://127.0.0.1:8080",
+    "mode": "write",
+    "concurrency": 1,
+    "requests": 100,
+    "seconds": 1.166,
+    "rps": 85.8,
+    "p50_ms": 5.73,
+    "p95_ms": 26.6,
+    "max_ms": 27.74,
+    "errors": 20,
+    "instances": {
+      "HTTPError": 20,
+      "5c69246d9bf8": 80
+    }
+  },
+  {
+    "base": "http://127.0.0.1:8080",
+    "mode": "write",
+    "concurrency": 10,
+    "requests": 300,
+    "seconds": 2.831,
+    "rps": 105.97,
+    "p50_ms": 22.77,
+    "p95_ms": 447.23,
+    "max_ms": 1835.91,
+    "errors": 0,
+    "instances": {
+      "5c69246d9bf8": 261,
+      "10a585c8d7d8": 39
+    }
+  },
+  {
+    "base": "http://127.0.0.1:8080",
+    "mode": "write",
+    "concurrency": 50,
+    "requests": 600,
+    "seconds": 5.909,
+    "rps": 101.53,
+    "p50_ms": 83.09,
+    "p95_ms": 2095.38,
+    "max_ms": 5886.91,
+    "errors": 0,
+    "instances": {
+      "10a585c8d7d8": 232,
+      "5c69246d9bf8": 232,
+      "fb59890fbe14": 136
+    }
+  },
+  {
+    "base": "http://127.0.0.1:8080",
+    "mode": "write",
+    "concurrency": 100,
+    "requests": 1000,
+    "seconds": 7.647,
+    "rps": 130.78,
+    "p50_ms": 183.55,
+    "p95_ms": 3022.06,
+    "max_ms": 6777.68,
+    "errors": 0,
+    "instances": {
+      "5c69246d9bf8": 334,
+      "fb59890fbe14": 333,
+      "10a585c8d7d8": 333
+    }
+  }
+]

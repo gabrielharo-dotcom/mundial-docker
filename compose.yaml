@@ -1,0 +1,24 @@
+services:
+  init:
+    build: .
+    command: ["python", "seed_demo.py"]
+    volumes: ["lab-data:/data"]
+    restart: "no"
+  app:
+    build: .
+    depends_on:
+      init:
+        condition: service_completed_successfully
+    volumes: ["lab-data:/data"]
+    expose: ["8000"]
+    restart: unless-stopped
+  gateway:
+    image: nginx:1.28-alpine
+    ports: ["127.0.0.1:8080:80"]
+    volumes: ["./nginx.conf:/etc/nginx/nginx.conf:ro"]
+    depends_on:
+      app:
+        condition: service_healthy
+    restart: unless-stopped
+volumes:
+  lab-data:

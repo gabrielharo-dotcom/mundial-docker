@@ -1,0 +1,5 @@
+REPOSITORY         TAG           DIGEST                                                                    IMAGE ID       CREATED          SIZE
+mundial-lab-app    latest        sha256:fa315c076ff6db67b2908aa4f928a28e21e5c042165792af6deddf748d807ff2   fa315c076ff6   27 seconds ago   178MB
+mundial-lab-init   latest        sha256:6d066fd47fed72bb4a5bb3225e5af70e81d7dfab0020fce05a19422ddea24e13   6d066fd47fed   27 seconds ago   178MB
+nginx              1.28-alpine   sha256:a8b39bd9cf0f83869a2162827a0caf6137ddf759d50a171451b335cecc87d236   a8b39bd9cf0f   7 months ago     93.4MB
+hello-world        latest        sha256:c567b231f65614688711a75f31518a064258a51d442117a3e771a3a8fdba78ef   c567b231f656   7 months ago     25.9kB

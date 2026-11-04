@@ -1,0 +1,62 @@
+name: mundial-lab
+services:
+  app:
+    restart: unless-stopped
+    networks:
+      default: null
+    volumes:
+      - type: volume
+        source: lab-data
+        target: /data
+        volume: {}
+    build:
+      context: /mnt/c/Users/HP/Documents/Codex/2026-11-04/a/outputs/mundial-lab
+      dockerfile: Dockerfile
+    depends_on:
+      init:
+        condition: service_completed_successfully
+        required: true
+    expose:
+      - "8000"
+  gateway:
+    restart: unless-stopped
+    image: nginx:1.28-alpine
+    networks:
+      default: null
+    volumes:
+      - type: bind
+        source: /mnt/c/Users/HP/Documents/Codex/2026-11-04/a/outputs/mundial-lab/nginx.conf
+        target: /etc/nginx/nginx.conf
+        read_only: true
+        bind: {}
+    depends_on:
+      app:
+        condition: service_healthy
+        required: true
+    ports:
+      - mode: ingress
+        host_ip: 127.0.0.1
+        target: 80
+        published: "8080"
+        protocol: tcp
+  init:
+    restart: 'no'
+    command:
+      - python
+      - seed_demo.py
+    networks:
+      default: null
+    volumes:
+      - type: volume
+        source: lab-data
+        target: /data
+        volume: {}
+    build:
+      context: /mnt/c/Users/HP/Documents/Codex/2026-11-04/a/outputs/mundial-lab
+      dockerfile: Dockerfile
+networks:
+  default:
+    name: mundial-lab_default
+volumes:
+  lab-data:
+    name: mundial-lab_lab-data

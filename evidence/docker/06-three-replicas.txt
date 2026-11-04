@@ -1,0 +1,5 @@
+NAME                    IMAGE               COMMAND                  SERVICE   CREATED          STATUS                    PORTS
+mundial-lab-app-1       mundial-lab-app     "python app.py"          app       25 seconds ago   Up 13 seconds (healthy)   8000/tcp
+mundial-lab-app-2       mundial-lab-app     "python app.py"          app       25 seconds ago   Up 13 seconds (healthy)   8000/tcp
+mundial-lab-app-3       mundial-lab-app     "python app.py"          app       25 seconds ago   Up 13 seconds (healthy)   8000/tcp
+mundial-lab-gateway-1   nginx:1.28-alpine   "/docker-entrypoint.…"   gateway   19 minutes ago   Up 15 minutes             127.0.0.1:8080->80/tcp

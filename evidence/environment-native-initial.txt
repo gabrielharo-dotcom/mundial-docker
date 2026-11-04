@@ -1,0 +1,5 @@
+Fecha de verificación: 2026-11-04
+Modo de ejecución: procesos nativos de Windows
+Docker disponible: False
+Python 3.14.9
+SQLite 3.50.4

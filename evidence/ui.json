@@ -1,0 +1,14 @@
+{
+  "status": "PASS",
+  "checks": [
+    "Inicio de sesión",
+    "Registro",
+    "Ingreso por enlace de invitación",
+    "Ranking con nuevo miembro",
+    "Administración oculta a participante",
+    "Guardar pronóstico",
+    "Crear sala",
+    "Crear partido"
+  ],
+  "pageErrors": []
+}

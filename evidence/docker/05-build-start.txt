@@ -1,0 +1,100 @@
+ Image mundial-lab-init Building 
+ Image mundial-lab-app Building 
+#1 [internal] load local bake definitions
+#1 reading from stdin 1.07kB done
+#1 DONE 0.0s
+
+#2 [init internal] load build definition from Dockerfile
+#2 transferring dockerfile: 491B 0.0s done
+#2 DONE 0.0s
+
+#3 [init internal] load metadata for docker.io/library/python:3.14-slim
+#3 DONE 1.1s
+
+#4 [init internal] load .dockerignore
+#4 transferring context: 101B 0.0s done
+#4 DONE 0.1s
+
+#5 [init 1/5] FROM docker.io/library/python:3.14-slim@sha256:930e1abba7c4e8f96ed93e8012c35d174d7732752731bbd5e8e757d7ec6f3966
+#5 resolve docker.io/library/python:3.14-slim@sha256:930e1abba7c4e8f96ed93e8012c35d174d7732752731bbd5e8e757d7ec6f3966 0.0s done
+#5 DONE 0.0s
+
+#6 [app internal] load build context
+#6 transferring context: 12.24kB 0.1s done
+#6 DONE 0.1s
+
+#7 [app 2/5] WORKDIR /app
+#7 CACHED
+
+#8 [init 3/5] COPY app.py seed_demo.py ./
+#8 DONE 0.0s
+
+#9 [app 4/5] COPY static ./static
+#9 DONE 0.0s
+
+#10 [app 5/5] RUN groupadd -g 10001 lab && useradd -u 10001 -g lab lab && mkdir /data && chown lab:lab /data
+#10 DONE 0.5s
+
+#11 [app] exporting to image
+#11 exporting layers 0.1s done
+#11 exporting manifest sha256:c18df4d172014686393eab018f50b8103928154f609f6c08e894a83bd2b057fa 0.0s done
+#11 exporting config sha256:fa15a4d8db3cbe770a87a4660e5ee3e4473c5fc38baf4a8a19d862811c8d9d61 0.0s done
+#11 exporting attestation manifest sha256:9b996abd690e74de65bfacdb9d9c88f2e32fcd7fc4af53e7055b9a1b8ddc8da4 0.0s done
+#11 exporting manifest list sha256:fa315c076ff6db67b2908aa4f928a28e21e5c042165792af6deddf748d807ff2 0.0s done
+#11 naming to docker.io/library/mundial-lab-app:latest
+#11 naming to docker.io/library/mundial-lab-app:latest done
+#11 unpacking to docker.io/library/mundial-lab-app:latest 0.1s done
+#11 DONE 0.3s
+
+#12 [init] exporting to image
+#12 exporting layers 0.1s done
+#12 exporting manifest sha256:c50e5b4c76ea45137618449386bcc66b6054ab5f044bb0fa695be35b8d6ae31b 0.0s done
+#12 exporting config sha256:c3cd3b883a0e7046b9a0e54a5a193211ebb45da67fe298aff7e721fb80f733af 0.0s done
+#12 exporting attestation manifest sha256:3aa823bfb4f652f7d49297b7cf47462d8373fc66abae173e7d2547ab8626f51f 0.0s done
+#12 exporting manifest list sha256:6d066fd47fed72bb4a5bb3225e5af70e81d7dfab0020fce05a19422ddea24e13 0.0s done
+#12 naming to docker.io/library/mundial-lab-init:latest done
+#12 unpacking to docker.io/library/mundial-lab-init:latest 0.1s done
+#12 DONE 0.3s
+
+#13 [app] resolving provenance for metadata file
+#13 DONE 0.0s
+
+#14 [init] resolving provenance for metadata file
+#14 DONE 0.0s
+ Image mundial-lab-init Built 
+ Image mundial-lab-app Built 
+ Container mundial-lab-gateway-1 Running 
+ Container mundial-lab-init-1 Recreate 
+ Container mundial-lab-init-1 Recreated 
+ Container mundial-lab-app-2 Recreate 
+ Container mundial-lab-app-1 Recreate 
+ Container mundial-lab-app-3 Recreate 
+ Container mundial-lab-app-3 Recreated 
+ Container mundial-lab-app-1 Recreated 
+ Container mundial-lab-app-2 Recreated 
+ Container mundial-lab-init-1 Starting 
+ Container mundial-lab-init-1 Started 
+ Container mundial-lab-init-1 Waiting 
+ Container mundial-lab-init-1 Exited 
+ Container mundial-lab-app-1 Starting 
+ Container mundial-lab-app-1 Started 
+ Container mundial-lab-app-2 Starting 
+ Container mundial-lab-app-2 Started 
+ Container mundial-lab-app-3 Starting 
+ Container mundial-lab-app-3 Started 
+ Container mundial-lab-app-2 Waiting 
+ Container mundial-lab-app-3 Waiting 
+ Container mundial-lab-app-1 Waiting 
+ Container mundial-lab-app-2 Healthy 
+ Container mundial-lab-app-3 Healthy 
+ Container mundial-lab-app-1 Healthy 
+ Container mundial-lab-init-1 Waiting 
+ Container mundial-lab-app-1 Waiting 
+ Container mundial-lab-app-3 Waiting 
+ Container mundial-lab-app-2 Waiting 
+ Container mundial-lab-gateway-1 Waiting 
+ Container mundial-lab-init-1 Exited 
+ Container mundial-lab-gateway-1 Healthy 
+ Container mundial-lab-app-1 Healthy 
+ Container mundial-lab-app-3 Healthy 
+ Container mundial-lab-app-2 Healthy 

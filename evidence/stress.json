@@ -1,0 +1,138 @@
+[
+  {
+    "base": "http://127.0.0.1:8080",
+    "mode": "read",
+    "concurrency": 1,
+    "requests": 100,
+    "seconds": 2.364,
+    "rps": 42.3,
+    "p50_ms": 27.98,
+    "p95_ms": 42.58,
+    "max_ms": 46.71,
+    "errors": 0,
+    "instances": {
+      "app-2": 34,
+      "app-3": 33,
+      "app-1": 33
+    }
+  },
+  {
+    "base": "http://127.0.0.1:8080",
+    "mode": "read",
+    "concurrency": 10,
+    "requests": 300,
+    "seconds": 0.45,
+    "rps": 666.04,
+    "p50_ms": 13.27,
+    "p95_ms": 27.48,
+    "max_ms": 34.63,
+    "errors": 0,
+    "instances": {
+      "app-3": 100,
+      "app-1": 100,
+      "app-2": 100
+    }
+  },
+  {
+    "base": "http://127.0.0.1:8080",
+    "mode": "read",
+    "concurrency": 50,
+    "requests": 600,
+    "seconds": 1.607,
+    "rps": 373.28,
+    "p50_ms": 14.85,
+    "p95_ms": 1020.05,
+    "max_ms": 1548.31,
+    "errors": 0,
+    "instances": {
+      "app-1": 200,
+      "app-3": 200,
+      "app-2": 200
+    }
+  },
+  {
+    "base": "http://127.0.0.1:8080",
+    "mode": "read",
+    "concurrency": 100,
+    "requests": 1000,
+    "seconds": 2.242,
+    "rps": 446.13,
+    "p50_ms": 14.39,
+    "p95_ms": 1525.89,
+    "max_ms": 2068.32,
+    "errors": 0,
+    "instances": {
+      "app-3": 334,
+      "app-1": 333,
+      "app-2": 333
+    }
+  },
+  {
+    "base": "http://127.0.0.1:8080",
+    "mode": "write",
+    "concurrency": 1,
+    "requests": 100,
+    "seconds": 2.171,
+    "rps": 46.07,
+    "p50_ms": 16.19,
+    "p95_ms": 47.88,
+    "max_ms": 51.08,
+    "errors": 0,
+    "instances": {
+      "app-1": 34,
+      "app-2": 33,
+      "app-3": 33
+    }
+  },
+  {
+    "base": "http://127.0.0.1:8080",
+    "mode": "write",
+    "concurrency": 10,
+    "requests": 300,
+    "seconds": 4.077,
+    "rps": 73.58,
+    "p50_ms": 62.8,
+    "p95_ms": 543.46,
+    "max_ms": 2338.67,
+    "errors": 0,
+    "instances": {
+      "app-3": 100,
+      "app-2": 100,
+      "app-1": 100
+    }
+  },
+  {
+    "base": "http://127.0.0.1:8080",
+    "mode": "write",
+    "concurrency": 50,
+    "requests": 600,
+    "seconds": 11.623,
+    "rps": 51.62,
+    "p50_ms": 78.82,
+    "p95_ms": 5376.86,
+    "max_ms": 10961.7,
+    "errors": 0,
+    "instances": {
+      "app-3": 200,
+      "app-2": 200,
+      "app-1": 200
+    }
+  },
+  {
+    "base": "http://127.0.0.1:8080",
+    "mode": "write",
+    "concurrency": 100,
+    "requests": 1000,
+    "seconds": 18.471,
+    "rps": 54.14,
+    "p50_ms": 87.54,
+    "p95_ms": 10958.49,
+    "max_ms": 18181.25,
+    "errors": 0,
+    "instances": {
+      "app-3": 333,
+      "app-2": 334,
+      "app-1": 333
+    }
+  }
+]

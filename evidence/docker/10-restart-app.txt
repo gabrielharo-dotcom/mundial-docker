@@ -1,0 +1,6 @@
+ Container mundial-lab-app-2 Restarting 
+ Container mundial-lab-app-3 Restarting 
+ Container mundial-lab-app-1 Restarting 
+ Container mundial-lab-app-1 Started 
+ Container mundial-lab-app-2 Started 
+ Container mundial-lab-app-3 Started 
